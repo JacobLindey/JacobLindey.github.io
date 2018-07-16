@@ -59,6 +59,15 @@ h2 {
   color: #BD5D38;
 }
 
+.list-progress-item {
+  list-style-type: none;
+}
+
+.list-progress-item i:hover {
+  list-style-type:none;
+  color: #BD5D38;
+}
+
 .pic {
   border-radius: 50%;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
