@@ -1,0 +1,11 @@
+<div class="sidenav" align="right">
+  <h1>{{ site.user }}</h1>
+  <h2>{{ site.user_title }}</h2>
+  <br>
+  <br>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</div>

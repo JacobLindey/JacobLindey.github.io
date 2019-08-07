@@ -1,0 +1,16 @@
+---
+layout: default
+excerpt_separator: <!--more-->
+---
+
+<h1>{{ page.title | markdownify | strip_html }}</h1>
+
+{% include series.html %}
+
+{{ content }}
+
+{% include post_footer.html %}
+
+{% include series.html %}
+
+{% include related_content.html %}
