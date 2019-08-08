@@ -31,3 +31,4 @@ I host a number of my past and current project on GitHub. Feel free to browse th
 
 I also use this space to host some materials for other nerdy things outside of the programming world.
 This includes tabletop and video game reviews, commentary, and design posts on my personal blog which you can find [here](#)
+ 
