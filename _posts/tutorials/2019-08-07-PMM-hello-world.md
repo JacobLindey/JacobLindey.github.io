@@ -1,6 +1,6 @@
 ---
 title:  "Hello, World!"
-date:   2019-08-07 12:00:00 -0400
+date:   2019-08-07 12:00:00
 categories: tutorials
 tags: [beginner, python]
 series: "Python for the Math Major"
