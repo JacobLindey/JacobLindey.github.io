@@ -1,6 +1,6 @@
 ---
 title:  "Introduction"
-date:   2019-08-01 10:36:46 -0400
+date:   2019-08-04 12:00:00 -0400
 categories: tutorials
 tags: [beginner, python]
 series: "Python for the Math Major"
@@ -85,7 +85,7 @@ Make sure to get the newest stable version of Python 3.
 ### The Python Interpreter
 
 In the early days of this tutorial, we'll be sticking to the Python Interpreter in the command prompt for Windows or terminal for Linux.
-Understanding how to open a terminal is all you'll need. 
+Understanding how to open a terminal is all you'll need.
 
 ### Choosing an Editor
 
