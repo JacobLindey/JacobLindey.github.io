@@ -17,7 +17,7 @@ I'd love to work with you on something awesome. Have a look at some of my projec
 
 As a math major, I find that many programming principles can be easily translated into language that is more tuned to a mathematicians ear. Follow me in this series of tutorials to get your start in programming fundamentals through Python.
 
-[Python for Math Majors -- Introduction]({% post_url tutorials/2019-08-01-PMM-introduction %})
+[Python for Math Majors -- Introduction]({% post_url tutorials/2019-08-04-PMM-introduction %})
 
 ---
 
@@ -31,4 +31,3 @@ I host a number of my past and current project on GitHub. Feel free to browse th
 
 I also use this space to host some materials for other nerdy things outside of the programming world.
 This includes tabletop and video game reviews, commentary, and design posts on my personal blog which you can find [here](#)
- 
