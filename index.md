@@ -2,7 +2,7 @@
     layout: default
     title: Jake's Blog
 ---
-<img src="assets/images/laptop-code.jpg">
+<img src="assets/images/laptop-code.jpg" class="main-header-image">
 
 # Let's Build Something Together
 
