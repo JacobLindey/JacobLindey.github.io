@@ -13,7 +13,7 @@
         <li>
           <h3>
             <a href="{{post.url}}">
-              {% if post.series %}{{ post.series }}{% endif %} &mdash;
+              {% if post.series %}{{ post.series }} &mdash; {% endif %} 
               {{post.title | markdownify | strip_html }}
             </a> &mdash;
             {{ post.date | date: "%m/%d/%y" }}

@@ -1,11 +1,13 @@
 ---
-title:  "Commander 2019 Previews"
+title:  "Commander 2019 Review"
 date:   2019-08-09 12:00:00
 categories: hobby
-tags: [Magic the Gathering, previews]
+tags: [Magic the Gathering, EDH]
 ---
 
 It's Commander 2019 preview season and of course I'm interested.
+
+<!-- end-excerpt -->
 
 We've seen the lists of all four decks: Faceless Menace, Mystic Intellect, Primal Genius, and Merciless Rage.
 Each deck is centered around a different mechanic from throughout Magic's history: Morph, Flashback, Populate, and Madness respectively.
