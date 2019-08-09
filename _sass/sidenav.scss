@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  background-color: #373737;
+  background-color: var(--sidenav-background-color);
   overflow-x: hidden;
   padding-top: 10px;
 }
@@ -16,24 +16,24 @@
 
 .sidenav h1 {
   margin: auto;
-  color: white;
+  color: var(--sidenav-text-color);
 }
 
 .sidenav h2 {
   margin: auto;
-  color: #7C818C;
+  color: var(--sidenave-subtitle-color);
 }
 
 .sidenav a {
   padding-right: 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #5294E2;
+  color: var(--sidenav-link-color);
   display: block;
   border: 5 solid;
   margin: 5px;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: var(--sidenav-text-color);
 }

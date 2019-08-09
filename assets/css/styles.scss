@@ -1,6 +1,32 @@
 ---
 
 ---
+:root {
+  --blue: #5294E2;
+  --white: #F4F4F4;
+  --orange: #F36D33;
+  --dark-grey: #373737;
+  --medium-grey: #7C818C;
+  --blue-grey: #4B5162;
+
+  --body-background-color: var(--medium-grey);
+
+  --center-third-bkgd-color: var(--blue-grey);
+
+  --sidenav-background-color: var(--dark-grey);
+  --sidenav-text-color: var(--white);
+  --sidenav-link-color: var(--blue);
+  --sidenave-subtitle-color: var(--medium-grey);
+
+
+  --post-text-color: var(--white);
+  --post-link-color: var(--blue);
+  --post-background-color: var(--blue-grey);
+  --post-block-bkgd-color: var(--dark-grey);
+  --post-block-border-color: var(--orange);
+}
+
 @import "main";
+@import "post";
+@import "series";
 @import "sidenav";
-@import "panel";

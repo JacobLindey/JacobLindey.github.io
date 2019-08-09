@@ -2,7 +2,7 @@
 title:  "Commander 2019 Review"
 date:   2019-08-09 12:00:00
 categories: hobby
-tags: [Magic the Gathering, EDH]
+tags: [mtg, edh]
 ---
 
 It's Commander 2019 preview season and of course I'm interested.
