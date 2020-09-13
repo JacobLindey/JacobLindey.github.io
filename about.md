@@ -1,19 +1,30 @@
 ---
-layout: default
-title: About Me
-permalink: /about/
+layout: page
+title: About
 ---
 
-<h1>{{ page.title }}</h1>
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-_A software developer based in the greater Pittsburgh area._
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-I recently graduated from Slippery Rock University and I'm ambitiously looking for a position in a company that would allow me to make something bigger than myself.
-I believe that software has the ability to change the world -- we've definitely seen this over the last 30 years -- and I want to be a part of it.
+There are currently two themes built on Poole:
 
-Python is my language of choice, but I have experience in Java, C/C++, and C# as well.
-I've both written code from scratch and developed packages that interface with preexisting software, worked alone and in groups on projects in and outside the classroom, and developed software for use by, and to the specifications of, a layperson.
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-You can view my resume [here](/assets/downloadables/resume_2019-08-07.pdf).
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-You can contact me at [{{ site.email }}](mailto:{{ site.email }}).
+## Setup
+
+Some fun facts about the setup of this project include:
+
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
