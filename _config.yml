@@ -3,9 +3,9 @@ title: "Dot By Dot"
 email: jacoblindey@gmail.com
 description: "Jacob Lindey's Blog"
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
+url: 
 title_description: "This is the personal site for me, Jacob Lindey. I'm a software engineer making enterprise and embedded systems in the electronics manufacturing industry. I'm constantly searching for opportunities to explore new ideas in the design, development, and management of good software and I'll share what I find here."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: "https://imgur.com/a/53RZVZi"
 google_analytics: 
 disqus_account: 
 github_repository: https://github.com/jacoblindey/jacoblindey.github.io
