@@ -1,25 +1,38 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: "Dot By Dot"
+email: jacoblindey@gmail.com
+description: "Jacob Lindey's Blog"
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "This is the personal site for me, Jacob Lindey. I'm a software engineer making enterprise and embedded systems in the electronics manufacturing industry. I'm constantly searching for opportunities to explore new ideas in the design, development, and management of good software and I'll share what I find here."
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: 
+disqus_account: 
+github_repository: https://github.com/jacoblindey/jacoblindey.github.io
+addthis_id: 
+post_limit: 5
 
-# Permalinks
-permalink:        pretty
+# Social usernames/URLs
+twitter_username: 
+github_username:  jacoblindey
+instagram_username: 
+reddit_username: 
+linkedin_link: 
+google_plus_link: 
+stackoverflow_link: 
+xing_link:
+facebook_link:
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+# Footer
+footer_left: "Built using <a href=\"https://jekyllrb.com/\">Jekyll</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/JacobLindey/JacobLindey.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# Build settings
+markdown: kramdown
 
-paginate:         5
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+permalink: pretty
+exclude: [vendor]

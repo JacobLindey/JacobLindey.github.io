@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+<div class="container-fluid index">
+  <div class="row index all-posts">
+    <h2 class="header" itemprop="headline"> {{ page.title }} </h2>
+    <div class="col-md-12 content-panel articles">
+       {{ content }}
+    </div>
+  </div>
 </div>
