@@ -35,7 +35,7 @@ As with most advanced skills in this industry, we have a tendency to coin a catc
 - Avoid Global Data
 
 All of these phrases capture important lessons, but in this summary we lose that nuance the experience brought to the originator. 
-Each has limitations, exceptions, and details left out for brevity and catchiness at the expense clarity.
+Each has limitations, exceptions, and details left out for brevity and catchiness at the expense of clarity.
 
 I suspect the same is true for comment code smells.
 
@@ -76,13 +76,13 @@ As I see it, there are three types of comments:
 
 ## The problem with "What" comments
 
-From my experience, *what* comments are troublesome and when someone says "comments are a code smell" they are refering to *what* comments.
+From my experience, *what* comments are troublesome and when someone says "comments are a code smell" they are referring to *what* comments.
 
 These comments indicate that the code they refer to is too complex or unorganized to be understood without them.
 
-> If you feel the need to leave explanitory comments, your code is likely too complex and/or unclear and is in need of refactoring.
+> If you feel the need to leave explanatory comments, your code is likely too complex and/or unclear and is in need of refactoring.
 
-Utimately, the problem is rooted in the complexity of the code -- the comment is just an indicator of that complexity.
+Ultimately, the problem is rooted in the complexity of the code -- the comment is just an indicator of that complexity.
 Look to refactor your code in ways that reduce complexity and increase clarity rather than filling gaps with comment "putty."
 
 ### Extraction and naming
@@ -90,6 +90,7 @@ Look to refactor your code in ways that reduce complexity and increase clarity r
 I come from a background in mathematics and code written by mathematicians can often contain long expressions pulled directly from a white paper.
 
 ```csharp
+// Calculate force gravity
 var fg = - G * (m1 * m2) / (d * d);
 ```
 
@@ -102,7 +103,7 @@ var forceGravity = InverseSquare(mass1, mass2, distance);
 public double InverseSquare(double mass1, double mass2, double distance)
 {
     const double GravitationalConstant = ...;
-    var proportion = mass1 * mass / (distance * distance);
+    var proportion = mass1 * mass2 / (distance * distance);
     return - GravitationalConstant * proportion;
 }
 ```
@@ -140,14 +141,15 @@ The other kinds of comments (*why* and *documentation* comments) are an importan
 Some issues, especially performance issues, can take months or even years to reveal themselves. 
 When they do rear their ugly head, it can be difficult to remember why you chose the implementation that you did.
 
-Usually, its the simpliest or quickest solution that gets slotted first. But other times we were aware of a limitation or constraint that led us to the (less performant) solution we chose.
+Usually, its the simplest or quickest solution that gets slotted first. But other times we were aware of a limitation or constraint that led us to the (less performant) solution we chose.
 
 A lot of time, effort, and frustration can be saved by leaving your thoughts along side your less than obvious coding decisions.
 
 ### Comment for the future you
 
 Developers spend a lot of time solving difficult problems.
-You might spend a day resolving a strange bit of syntax needed to perform a novel task with an external package.Adequately recording your findings will save you time in the future should you need to reproduce these results.
+You might spend a day resolving a strange bit of syntax needed to perform a novel task with an external package.
+Adequately recording your findings will save you time in the future should you need to reproduce these results.
 
 Embedded microblogs in my code that summarize my findings alongside the working example is an invaluable resource when I inevitably need to solve a similar issue again.
 The initial time invested in recording the knowledge as it is fresh in my mind is offset by the hours saved months or years later.
@@ -158,11 +160,11 @@ Documentation comments should be included for any publicly callable code, such a
 Including documentation alongside the code it documents ensures that it remains up to date and easy to find.
 
 XML comments are especially effective for this purpose.
-They structure the comments in a machine parsable fashion that can be utilized by plugins, analyzers, or an IDE to serve documentation to your users in a variety of ways.
+They structure the comments in a machine parsSable fashion that can be utilized by plugins, analyzers, or an IDE to serve documentation to your users in a variety of ways.
 
 ## Conclusion
 
-"Comments are a code smell" is a well-intentioned attempt to pass important lessons onto a new generation of software developers. But, as with any coinable phrase, the true lesson is obscured behind a convenient facade.
+"Comments are a code smell" is a well-intentioned attempt to pass important lessons onto a new generation of software developers. But, as with any coinable phrases, the true lesson is obscured behind a convenient facade.
 
 To newer developers this simplification can lead to worse coding practices or an assumption that the comments themselves are the problem in need of solution.
 Understanding that "comment" can refer to three distinct concepts that serve different purposes helps uncover the true meaning behind this phrase.
