@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Should you comment your code?"
-date:       2022-09-04 12:00:00
+date:       2022-09-04 00:00:00
 summary:    
 categories: best-practices
 thumbnail: comments
